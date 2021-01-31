@@ -101,16 +101,6 @@ const AddExperience = ({ addExperience, history }) => {
             onChange={onChange}
             required
           />
-        </div>    
-        <div className="form-group">
-          <textarea
-            name="description"
-            cols="30"
-            rows="5"
-            placeholder="Job Description"
-            value={description}
-            onChange={onChange}
-          />
         </div>
         <input type="submit" className="btn btn-primary my-1" />
         <Link className="btn btn-light my-1" to="/dashboard">
